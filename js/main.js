@@ -40,7 +40,6 @@ const imgMenuClick = (e) => {
   refs.lightbox.classList.add("is-open");
   refs.lightboxImg.src = e.target.dataset.source;
   refs.lightboxImg.alt = e.target.alt;
-  
 };
 
 refs.galleryJs.addEventListener("click", imgMenuClick);
@@ -59,6 +58,14 @@ window.addEventListener("keyup", (e) => {
     refs.lightbox.classList.remove("is-open");
     refs.lightboxImg.src = "";
     refs.lightboxImg.alt = "";
-    window.removeEventListener("keyup", (e));
+    window.removeEventListener("keyup", e);
   }
 });
+// window.addEventListener("keyup", (e) => {
+//   if (e.code === "Arrow left") {
+//     refs.lightbox.classList.remove("is-open");
+//     refs.lightboxImg.src = "";
+//     refs.lightboxImg.alt = "";
+//     window.removeEventListener("keyup", e);
+//   }
+// });

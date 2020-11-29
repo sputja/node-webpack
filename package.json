@@ -1,0 +1,26 @@
+{
+  "name": "node-webpack",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sputja/node-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sputja/node-webpack/issues"
+  },
+  "homepage": "https://github.com/sputja/node-webpack#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
